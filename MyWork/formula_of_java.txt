@@ -1,0 +1,99 @@
+Formula of Even = (n%2)==0
+
+Formula of Odd = (n%2)!=0 or (n%2)==1
+
+Factors = (n%i)==0
+
+LCM=A*B/HCF
+
+Successive Calculation = new value = new value + old value
+
+Factors = product = product * i
+
+Extract Number = while(n!=0)
+		  r=n%10
+		  Sout(r)
+		  n=n/10;
+
+Sum of Digits  = while(n!=0)
+		  r=n%10;
+		  sum=sum+r;
+		  n=n/10;
+
+Length of Number = n=n/10;
+		   count++;
+
+Reverse Number  = while(n!=0)
+		  r=n%10;
+		  x=(x*10)+r;
+		  n=n/10;
+
+Common Factor = for(int i=0;i<=b;i++)
+		if(a%i==0 && b%i==0)
+
+Highest Common Factor = for(int i=0;i<=b;i++)
+		        if(a%i==0 && b%i==0){
+			hcf+i
+			}
+
+Least Common Factor = for(int i=0;i<=b;i++)
+		        if(a%i==0 && b%i==0){
+			hcf+i
+			}
+			Lcm=(a*b)/hcf
+
+
+Armstrong Number
+
+while(n!=0) //length of number
+{
+count++;
+n=n/10;
+}
+
+n=copy;  //reset 
+
+while(n!=0)	//Extract the value
+{
+x=n%10;
+n=n/10;
+for(int i=1; i<=y; i++)	//power caluclation
+{
+pow=pow*r;
+}
+result=result + pow;
+}
+
+Sum of Array
+
+for(int i=0;i<=a.length-1;i++){
+sum=sum + a[i]
+}
+
+Liner Search
+
+for(int i=0;i<=a.length-1;i++){
+if(a[i]==p)
+{
+count++
+}
+
+Swapping two numbers
+
+for(int i=0;i<=a.lengh-1;i++){
+for(int j=0;j<=a.length-2;j++){
+if(a[i]=a[j+1]){
+a[j]=a[j]+a[j+1];
+a[j+1]=a[i]-a[j+1]
+a[j]=a[j]-a[j+1];
+}
+}
+}
+
+
+
+
+
+	
+
+
